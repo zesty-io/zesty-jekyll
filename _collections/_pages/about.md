@@ -11,11 +11,11 @@ _meta_link_text: About
 _meta_title: About
 _meta_description: null
 _meta_keywords: null
-description: null
-header: null
+description: fdsfsd
+header: HEADER
 deleted1: null
-image: null
-link_title: null
+image: https://placekitten.com/431/432
+link_title: el lino
 link_destination: null
-layout: page
+layout: about
 ---

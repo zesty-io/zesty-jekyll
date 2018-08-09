@@ -53,9 +53,9 @@ collections:
     output: true
 defaults:
   - scope:
-      path: ""
+      path: "pages"
     values:
-      layout: page
+      layout: pages
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
