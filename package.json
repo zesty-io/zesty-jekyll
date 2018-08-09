@@ -1,0 +1,29 @@
+{
+  "name": "jekyllburger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pull-zesty": "node zesty/pullzesty.js --verbose",
+    "build-jekyll": "node zesty/pullzesty.js --verbose; jekyll build --destination docs",
+    "start": "node zesty/pullzesty.js --verbose ; jekyll serve",
+    "all": "node zesty/pullzesty.js --verbose ; jekyll build --destination docs; jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronakdev/jekyll-zesty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronakdev/jekyll-zesty/issues"
+  },
+  "homepage": "https://github.com/ronakdev/jekyll-zesty#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "gray-matter": "^4.0.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.87.0",
+    "toml": "^2.3.3"
+  }
+}

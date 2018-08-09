@@ -29,7 +29,33 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+# Collections - might want to auto generate this
+collections_dir: _collections
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  events:
+    output: true
+  menu: 
+    output: true
+  locations:
+    output: true
+  locationMenu:
+    output: true
+    permalink: /locations/:location/menu/:title
+  locationEvents:
+    output: true
+    permalink: /locations/:location/events/:title
+  blog:
+    output: true
+  careers:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
