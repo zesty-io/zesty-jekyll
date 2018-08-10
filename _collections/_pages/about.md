@@ -15,7 +15,7 @@ description: fdsfsd
 header: HEADER
 deleted1: null
 image: https://placekitten.com/431/432
-link_title: el lino
+link_title: el linko
 link_destination: null
 layout: about
 ---

@@ -13,4 +13,5 @@ _meta_description: null
 _meta_keywords: null
 title: null
 description: null
+layout: menu
 ---

@@ -37,25 +37,47 @@ collections:
     permalink: /:title
   events:
     output: true
-  menu: 
+  menuitems: 
     output: true
   locations:
     output: true
-  locationMenu:
-    output: true
-    permalink: /locations/:location/menu/:title
-  locationEvents:
-    output: true
-    permalink: /locations/:location/events/:title
   blog:
     output: true
   careers:
     output: true
 defaults:
   - scope:
-      path: "pages"
+      path: ""
     values:
-      layout: pages
+      layout: page
+  - scope:
+      path: ""
+      type: "locations"
+    values:
+      layout: locationitem
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: blogitem
+  - scope:
+      path: ""
+      type: "menuitems"
+    values:
+      layout: menuitem
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: eventitem
+  - scope:
+      path: ""
+      type: "locations"
+    values:
+      layout: locationitem
+
+ 
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

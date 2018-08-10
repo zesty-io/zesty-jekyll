@@ -14,4 +14,5 @@ _meta_keywords: null
 title: null
 description: null
 image: null
+layout: events
 ---
