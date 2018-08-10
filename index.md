@@ -16,7 +16,7 @@ deleted2: <p>MUI is a lightweight CSS framework that follows Google's Material D
 splash_description: null
 splash_link: null
 splash_link_text: null
-splash_background: http://loremflickr.com/1000/500/landscape
+splash_background: null
 subtitle: null
 layout: home
 ---

@@ -39,6 +39,7 @@ collections:
     output: true
   menuitems: 
     output: true
+    permalink: /menu/:title
   locations:
     output: true
   blog:
