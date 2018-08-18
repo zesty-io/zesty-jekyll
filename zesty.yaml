@@ -16,7 +16,7 @@ contentZuids:
     6-192984-tjwntl: _collections/_careers/ # Careers Subpages
 endpoints:
   custom:
-    eventslist: _data/events.json
+    /-/custom/eventslist: _data/events.json
   items:
     7-6a4a7b1-vv84b3: _data/footer.json
   arrays:
