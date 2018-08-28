@@ -1,4 +1,4 @@
-# Jekyll-Zesty
+# Zesty-Jekyll
 
 ## Getting Started
 
