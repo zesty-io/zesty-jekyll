@@ -1,13 +1,14 @@
+type: jekyll
 instanceURL: http://burger.zesty.site
 contentZuids:
   items:
     7-4ad498-k2cldb: index.md # Homepage
-    7-a4b6ac-bc4n0q: _collections/pages/about.md # About
-    7-8443e4-x33jgm: _collections/pages/locations.md # Locations Index
-    7-b74a74-wjsq8t: _collections/pages/events.md # Events Index
-    7-468214-r277lp: _collections/pages/menu.md # Menu Index
-    7-162dc8-cxhsx4: _collections/pages/blog.md # Blog Index
-    7-557f14-9vgpr3: _collections/pages/careers.md # Careers Index
+    7-a4b6ac-bc4n0q: _collections/_pages/about.md # About
+    7-8443e4-x33jgm: _collections/_pages/locations.md # Locations Index
+    7-b74a74-wjsq8t: _collections/_pages/events.md # Events Index
+    7-468214-r277lp: _collections/_pages/menu.md # Menu Index
+    7-162dc8-cxhsx4: _collections/_pages/blog.md # Blog Index
+    7-557f14-9vgpr3: _collections/_pages/careers.md # Careers Index
   arrays:
     6-9bfe5c-ntqxrs: _collections/_locations/ # Location Subpages
     6-8d6f30-zc84qx: _collections/_events/ # Events Subpages

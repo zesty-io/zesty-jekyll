@@ -26,19 +26,19 @@ layout: default
                         <div class="tab-pane fade show active " id="pills-" role="tabpanel" aria-labelledby="pills--tab">
                             <div class="row">
 
-                                {% for mi in site.menuitems %}
+                                {% for mi in site.menu %}
                                 <div class="col-md-6 site-animate">
                                     <div class="media menu-item div-link">
                                         <a href="{{mi.url}}"><span class="div-link-span"></span></a>
-                                        <img class="mr-3" src="{{ mc.image }}" class="img-fluid" alt="{{ mc.image }}"/>
+                                        <img class="mr-3" src="{{ mi.image }}" class="img-fluid" alt="{{ mc.image }}"/>
                                         <div class="media-body">
                                             <h5 class="mt-0">{{mi.name}} {% for mt in mi.tags %}<span class="tag">{{ mt.title }}</span> {% endfor %}</h5>
                                             <p>{{ mi.description }}</p>
-                                            <h6 class="text-primary menu-price">{{mi.price}}</h6>
+                                            <h6 class="text-primary menu-price">{{ mi.price}}</h6>
                                         </div>
                                     </div>
                                 </div>
-                                {% endfor %} 
+                                {% endfor %}
                             </div>
                         </div>
                         

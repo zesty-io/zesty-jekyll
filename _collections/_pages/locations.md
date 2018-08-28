@@ -1,17 +1,11 @@
 ---
-parent_zuid`: undefined
 sort: 2
-_item_zuid: 7-8443e4-x33jgm
-_version_zuid: 9-87d720-s8v8n5
-_version: 1
-_lang: 1
-_created_at: 2018-07-10 23:16:38
-_created_by_user_zuid: 5-b4d1c4d6ca-hzfn90
-_meta_link_text: Locations
-_meta_title: Locations
-_meta_description: null
-_meta_keywords: null
-title: null
-subtitle: null
-layout: locations
+title: 2 Locations. Infinite Zest.
+subtitle: Find the location nearest to you today. Don't see one near you? 
+zuid: 18-6b1c238-1xb4n2
+item_zuid: /-/basic-content/7-8443e4-x33jgm.json
+version_zuid: 9-6b1c236-htnb97
+version_num: 4
+publish_at: 2018-07-23 22:01:27
+take_offline_at: null
 ---

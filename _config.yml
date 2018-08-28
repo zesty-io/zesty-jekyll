@@ -37,7 +37,7 @@ collections:
     permalink: /:title
   events:
     output: true
-  menuitems: 
+  menu: 
     output: true
     permalink: /menu/:title
   locations:
@@ -47,38 +47,70 @@ collections:
   careers:
     output: true
 defaults:
-  - scope:
-      path: ""
+  -
+    scope:
+      type: "pages"
     values:
       layout: page
-  - scope:
-      path: ""
-      type: "locations"
+  -
+    scope:
+      path: "index.md"
     values:
-      layout: locationitem
-  - scope:
-      path: ""
-      type: "blog"
+      layout: home
+  -
+    scope:
+      path: "_pages/blog.md"
+    values:
+      layout: blog
+  - 
+    scope:
+      type: blog
     values:
       layout: blogitem
-  - scope:
-      path: ""
-      type: "menuitems"
+  -
+    scope:
+      path: "_pages/menu.md"
+    values:
+      layout: menu
+  - 
+    scope:
+      type: "menu"
     values:
       layout: menuitem
-  - scope:
+  -
+    scope:
+      path: "_pages/events.md"
+    values:
+      layout: events
+  - 
+    scope:
       path: ""
       type: "events"
     values:
       layout: eventitem
-  - scope:
+  - 
+    scope:
+      path: "_pages/locations.md"
+    values:
+      layout: locations
+  - 
+    scope:
       path: ""
       type: "locations"
     values:
       layout: locationitem
-
+  - 
+    scope:
+      path: "_pages/careers.md"
+    values:
+      layout: careers
+  - 
+    scope:
+      path: ""
+      type: "careers"
+    values:
+      layout: careeritem
  
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
